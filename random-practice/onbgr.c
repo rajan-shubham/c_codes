@@ -1,17 +1,19 @@
-#include<stdio.h>
-void main(){
-    int i,n=0,a,b;
-    printf("define your lower limit:");
-    scanf("%d",&a);
-    printf("define your higher limit:");
-    scanf("%d",&b);
-    for(i=a;i<=b;i++)
-    {
-        if(i==n)
-        {
-            n=n+2;
+#include <stdio.h>
+int main(void){
+    int a,b;
+    printf("enter range \n");
+    scanf("%d %d",&a,&b);
+    if(a>b){
+        int c = a;
+        a = b;
+        b = c;
+    }
+    for(int i=a; i<=b; i++){
+        if(i%2==0){
             continue;
         }
-        printf("here is your odd output:%d\n",i);
+        printf("%d  ",i);
     }
+    printf("\n");
+    return 0;
 }
