@@ -1,6 +1,6 @@
 #include<stdio.h>
 void main(){
-    int i,n=2,a,b;
+    int i,n=0,a,b;
     printf("define your lower limit:");
     scanf("%d",&a);
     printf("define your higher limit:");
