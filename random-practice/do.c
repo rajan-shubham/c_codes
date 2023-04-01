@@ -1,11 +1,12 @@
 #include<stdio.h>
 void main(){
-    int i, rem;
+    int i, rem,rev=0;
     printf("enter the number:");
     scanf("%d",&i);
     do{
         rem=i%10;
-        printf("%d",rem);
+        rev=rev*10+rem;
         i=i/10;
     }while(i>0);
+    printf("%d",rev);
 }
