@@ -8,7 +8,7 @@ void main(){
         printf("Enter the value of arr[%d] : ",i);
         scanf("%d",&arr[i]);
     }
-    int count1=0,count2=0,count3=0;
+    int count1=0,count2=0,count3=0,count4=0;
     for(int i =0;i<size;i++){
         if(arr[i]/10<1){
             count1++;
@@ -19,11 +19,9 @@ void main(){
         if(arr[i]/10<100 && arr[i]/10>10){
             count3++;
         }
+        if(arr[i]/10<1000 && arr[i]/10>100){
+            count4++;
+        }
     }
-    printf("%d,",1);
-    printf("%d,",count1);
-    printf("%d,",2);
-    printf("%d,",count2);
-    printf("%d,",3);
-    printf("%d\n",count3);
+printf(" Digit count of given elements in the array is : { %d,%d,%d,%d,%d,%d,%d,%d }\n",1,count1,2,count2,3,count3,4,count4);
 }
