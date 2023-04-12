@@ -5,7 +5,6 @@ void main(){
     scanf("%d",&n);
     int num = n;
     while(num>0){
-        
         last=num%10;
         if(last % 2 == 0){
             sum = sum +last;
