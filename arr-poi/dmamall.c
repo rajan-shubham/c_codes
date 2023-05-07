@@ -15,6 +15,7 @@ void main(){
             printf("{ %d and its address is : %u } ",*(ptr+i),(ptr+i));
         }
     }
+    //checking here heap free or not
     printf(" %d %u ",*ptr,ptr);
     free(ptr);
     printf(" %d %u ",*ptr,ptr);
