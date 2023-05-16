@@ -14,4 +14,10 @@ void main(){
     f++;
     *(t)='k';
     printf("%s\t",t);
+    *(t)='s';
+    printf("%s\t",t);
+    *(t+1)='s';
+    printf("%s\t",t);
+    t[1]='w';
+    printf("%s\t",t);
 }
