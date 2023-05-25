@@ -1,0 +1,24 @@
+Name : aafs
+Roll : 1
+Department : dg
+Marks : 42.000000
+
+
+Name : faf
+Roll : 2
+Department : gfa
+Marks : 24.000000
+
+
+Name : daf
+Roll : 3
+Department : agfag
+Marks : 23.000000
+
+
+Name : fsg
+Roll : 4
+Department : fsa
+Marks : 45.000000
+
+
